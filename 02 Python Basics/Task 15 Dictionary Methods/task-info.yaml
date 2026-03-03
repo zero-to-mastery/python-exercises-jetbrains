@@ -1,0 +1,52 @@
+type: edu
+custom_name: Dictionary Methods
+files:
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+  - name: ExerciseDictionaryMethods.py
+    visible: true
+    placeholders:
+      - offset: 92
+        length: 3
+        placeholder_text: ___
+      - offset: 114
+        length: 3
+        placeholder_text: ___
+      - offset: 136
+        length: 3
+        placeholder_text: ___
+      - offset: 159
+        length: 3
+        placeholder_text: ___
+      - offset: 177
+        length: 3
+        placeholder_text: ___
+      - offset: 227
+        length: 3
+        placeholder_text: ___
+      - offset: 273
+        length: 3
+        placeholder_text: ___
+      - offset: 277
+        length: 3
+        placeholder_text: ___
+      - offset: 327
+        length: 3
+        placeholder_text: ___
+      - offset: 334
+        length: 3
+        placeholder_text: ___
+      - offset: 377
+        length: 3
+        placeholder_text: ___
+      - offset: 438
+        length: 3
+        placeholder_text: ___
+      - offset: 459
+        length: 3
+        placeholder_text: ___
+      - offset: 484
+        length: 3
+        placeholder_text: ___

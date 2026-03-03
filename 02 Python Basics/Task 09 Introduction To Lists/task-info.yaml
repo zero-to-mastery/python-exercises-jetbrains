@@ -1,0 +1,13 @@
+type: edu
+custom_name: Introduction To Lists
+files:
+  - name: task.md
+    visible: false
+  - name: Lists.py
+    visible: true
+    placeholders:
+      - offset: 207
+        length: 1
+        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

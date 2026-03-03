@@ -1,0 +1,20 @@
+custom_name: Python Basics
+content:
+  - Task 01 Operators And Precedence
+  - Task 02 Augmented Assignment
+  - Task 03 Numbers Int And Float
+  - Task 04 Type Conversion
+  - Task 05 Working With Strings
+  - Task 06 Formatted Strings
+  - Task 07 String Indexes
+  - Task 08 Password Checker
+  - Task 09 Introduction To Lists
+  - Task 10 List Slicing
+  - Task 11 Matrix Operations
+  - Task 12 List Methods
+  - Task 13 Common List Patterns
+  - Task 14 Working With Dictionaries
+  - Task 15 Dictionary Methods
+  - Task 16 Tuples
+  - Task 17 Working With Sets
+  - Task 18 Sets Exercise

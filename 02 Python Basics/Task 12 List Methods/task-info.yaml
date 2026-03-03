@@ -1,0 +1,25 @@
+type: edu
+custom_name: List Methods
+files:
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+  - name: ExerciseListMethods.py
+    visible: true
+    placeholders:
+      - offset: 124
+        length: 16
+        placeholder_text: ???
+      - offset: 189
+        length: 21
+        placeholder_text: ???
+      - offset: 258
+        length: 14
+        placeholder_text: ???
+      - offset: 328
+        length: 19
+        placeholder_text: ???
+      - offset: 415
+        length: 15
+        placeholder_text: ???

@@ -1,0 +1,14 @@
+type: marketplace
+title: Zero To Mastery Python Course
+language: English
+summary: Learn Python fundamentals through hands-on exercises from the Complete Python
+  Developer course
+vendor:
+  name: Zero To Mastery
+programming_language: Python
+programming_language_version: 3.8
+environment: unittest
+content:
+  - 01 Python Introduction
+  - 02 Python Basics
+yaml_version: 5

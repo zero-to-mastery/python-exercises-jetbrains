@@ -1,0 +1,13 @@
+type: edu
+custom_name: Matrix Operations
+files:
+  - name: task.md
+    visible: false
+  - name: ExerciseMatrix.py
+    visible: true
+    placeholders:
+      - offset: 157
+        length: 15
+        placeholder_text: "# basket[?][?][?]"
+  - name: tests/test_task.py
+    visible: false

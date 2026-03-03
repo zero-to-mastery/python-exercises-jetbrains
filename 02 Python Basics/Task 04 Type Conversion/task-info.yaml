@@ -1,0 +1,13 @@
+type: edu
+custom_name: Type Conversion
+files:
+  - name: task.md
+    visible: false
+  - name: ExerciseTypeConversion.py
+    visible: true
+    placeholders:
+      - offset: 260
+        length: 15
+        placeholder_text: birth_year
+  - name: tests/test_task.py
+    visible: false

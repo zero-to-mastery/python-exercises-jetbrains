@@ -1,0 +1,16 @@
+type: edu
+custom_name: Sets Exercise
+files:
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+  - name: ExerciseSets.py
+    visible: true
+    placeholders:
+      - offset: 227
+        length: 3
+        placeholder_text: ___
+      - offset: 254
+        length: 3
+        placeholder_text: ___

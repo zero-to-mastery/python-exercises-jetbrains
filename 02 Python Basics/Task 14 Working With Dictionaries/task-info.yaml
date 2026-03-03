@@ -1,0 +1,52 @@
+type: edu
+custom_name: Working With Dictionaries
+files:
+  - name: task.md
+    visible: false
+  - name: Dictionaries.py
+    visible: true
+    placeholders:
+      - offset: 161
+        length: 18
+        placeholder_text: ???
+      - offset: 333
+        length: 14
+        placeholder_text: ???
+      - offset: 410
+        length: 21
+        placeholder_text: ???
+      - offset: 471
+        length: 16
+        placeholder_text: "# Does user have key 'basket'?"
+      - offset: 499
+        length: 14
+        placeholder_text: "# Does user have key 'size'?"
+      - offset: 552
+        length: 20
+        placeholder_text: "# Is 'age' a key?"
+      - offset: 584
+        length: 24
+        placeholder_text: "# Is 'Hello' a value?"
+      - offset: 620
+        length: 18
+        placeholder_text: "# Get a snapshot of all (key, value) pairs"
+      - offset: 673
+        length: 11
+        placeholder_text: "# Make a copy of user"
+      - offset: 740
+        length: 11
+        placeholder_text: "# Make a copy of user"
+      - offset: 790
+        length: 7
+        placeholder_text: ???
+      - offset: 844
+        length: 20
+        placeholder_text: "# Remove key 'age' from user_copy"
+      - offset: 877
+        length: 19
+        placeholder_text: "# Remove one (key, value) pair from user_copy"
+      - offset: 947
+        length: 19
+        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

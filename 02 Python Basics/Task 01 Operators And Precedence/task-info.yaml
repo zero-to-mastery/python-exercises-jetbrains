@@ -1,0 +1,25 @@
+type: edu
+custom_name: Operators And Precedence
+files:
+  - name: task.md
+    visible: false
+  - name: ExerciseOperatorPrecedence.py
+    visible: true
+    placeholders:
+      - offset: 208
+        length: 4
+        placeholder_text: "# calculate (5 + 4) * 10 / 2"
+      - offset: 225
+        length: 4
+        placeholder_text: "# calculate ((5 + 4) * 10) / 2"
+      - offset: 242
+        length: 4
+        placeholder_text: "# calculate (5 + 4) * (10 / 2)"
+      - offset: 259
+        length: 4
+        placeholder_text: "# calculate 5 + (4 * 10) / 2"
+      - offset: 276
+        length: 2
+        placeholder_text: "# calculate 5 + 4 * 10 // 2"
+  - name: tests/test_task.py
+    visible: false

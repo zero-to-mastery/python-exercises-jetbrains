@@ -1,0 +1,38 @@
+type: edu
+custom_name: Tuples
+files:
+  - name: task.md
+    visible: false
+  - name: Tuples.py
+    visible: true
+    placeholders:
+      - offset: 78
+        length: 3
+        placeholder_text: ___
+      - offset: 83
+        length: 3
+        placeholder_text: ___
+      - offset: 88
+        length: 3
+        placeholder_text: ___
+      - offset: 162
+        length: 3
+        placeholder_text: ___
+      - offset: 206
+        length: 3
+        placeholder_text: ___
+      - offset: 261
+        length: 3
+        placeholder_text: ___
+      - offset: 266
+        length: 3
+        placeholder_text: ___
+      - offset: 271
+        length: 3
+        placeholder_text: ___
+      - offset: 338
+        length: 3
+        placeholder_text: ___
+      - offset: 418
+        length: 3
+        placeholder_text: ___

@@ -1,0 +1,7 @@
+type: theory
+custom_name: Your First Python Program
+files:
+  - name: task.md
+    visible: false
+  - name: OurFirstPythonProgram.py
+    visible: true
