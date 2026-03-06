@@ -1,8 +1,6 @@
 # Operator Precedence Exercise
 
 ## Task
-Predict the output of each expression.
-
 Calculate the results for the five expressions below and fill in the answers in `ExerciseOperatorPrecedence.py`.
 Now calculate these 5 expressions and enter your answers.
 

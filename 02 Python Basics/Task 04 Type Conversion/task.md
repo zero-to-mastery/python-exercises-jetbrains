@@ -1,8 +1,6 @@
 # Type Conversion
 
-## The Problem
-
-Look at the code in `5-ExerciseTypeConversion.py`. You'll see:
+In this task you'll see:
 ```python
 birth_year = '1990'  # This is a string!
 age = 2026 - birth_year

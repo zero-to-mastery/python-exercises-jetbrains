@@ -1,51 +1,34 @@
 # Dictionaries Exercise
 
-dictionary = {
-    'a': [1, 2, 3],
-    'b': 'Hello',
-    'c': True
+# Create a user profile for your new game.
+# Store it in a dictionary:
+user_profile = {
+    'age': 0,
+    'username': '',
+    'weapons': None,
+    'is_active': False,
+    'clan': None
 }
 
-# Access the second number from the list under key 'a'
-answer_1 = dictionary['a'][1]
+# 2 Get all the keys from user_profile and convert them to a list.
+answer_1 = list(user_profile.keys())
 
+# 3 Set the value under key 'weapons' to 'Katana'.
+user_profile['weapons'] = 'Katana'
+answer_2 = user_profile['weapons']
 
-# Dictionary methods
-user = {
-    'basket': [1, 2, 3],
-    'greet': 'Hello',
-    'age': 20
-}
+# 4 Add a new key 'is_banned' and set it to False.
+user_profile.update({'is_banned': False})
+answer_3 = user_profile['is_banned']
 
-# Get 'age' using get(), with default 55
-answer_2 = user.get('age', 55)
+# 5 Change the value under key 'is_banned' to True.
+user_profile['is_banned'] = True
+answer_4 = user_profile['is_banned']
 
-# Create a dict with key 'name' and value 'JohnJohn'
-user2 = dict(name='JohnJohn')
+# 6 Copy user_profile into user2 (create a new dictionary).
+user2 = user_profile.copy()
+answer_5 = user2
 
-# Membership checks (keys)
-answer_3 = 'basket' in user
-answer_4 = 'size' in user
-
-# Check keys/values/items
-answer_5 = 'age' in user.keys()
-answer_6 = 'Hello' in user.values()
-answer_7 = dict(user).items()
-
-# Copy the dictionary
-answer_8 = user.copy()
-
-# Make a separate copy for future changes
-user_copy = user.copy()
-
-# Clear the original dictionary
-user.clear()
-answer_9 = user
-
-# Pop and update
-answer_10 = user_copy.pop('age')
-answer_11 = user_copy.popitem()
-
-# Set the key 'age' to 55 in user_copy
-user_copy.update({'age': 55})
-answer_12 = user_copy
+# 7 Change age and username only in user2.
+user2.update({'age': 50, 'username': 'User2'})
+answer_6 = user2

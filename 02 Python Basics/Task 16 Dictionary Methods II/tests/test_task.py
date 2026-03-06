@@ -12,10 +12,10 @@ def try_import(task_name):
 
 
 class TestCase(unittest.TestCase):
-    task_name = 'dictionaries_exercise'
+    task_name = 'changing_a_dictionary'
     task_file = os.path.join(
         os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-        'Dictionaries.py'
+        'ExerciseDictionaryMethodsII.py'
     )
 
     def setUp(self):
@@ -30,15 +30,19 @@ class TestCase(unittest.TestCase):
         except NameError:
             pass
         except SyntaxError as se:
-            self.fail("Syntax error while loading the solution – {0}. "
-                      "Please fill in all answers with valid numbers or strings (empty placeholders are invalid)."
-                      .format(str(se)))
+            self.fail(
+                "Syntax error while loading the solution – {0}. "
+                "Please fill in all answers with valid numbers or strings "
+                "(empty placeholders are invalid).".format(str(se))
+            )
         except Exception as e:
-            self.fail("There was a problem while loading the solution – {0}. Check the solution for "
-                      "IDE-highlighted errors and warnings.".format(str(e)))
+            self.fail(
+                "There was a problem while loading the solution – {0}. "
+                "Check the solution for IDE-highlighted errors and warnings.".format(str(e))
+            )
 
     def test_answer_1(self):
-        expected_value = ['age', 'username', 'weapons', 'is_active', 'clan']
+        expected_value = {'basket': [1, 2, 3], 'greet': 'Hello', 'age': 20}
 
         try:
             actual_value = try_import(self.task_name).answer_1
@@ -48,7 +52,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_1 value seems to be a bit off.")
 
     def test_answer_2(self):
-        expected_value = 'Katana'
+        expected_value = 20
 
         try:
             actual_value = try_import(self.task_name).answer_2
@@ -58,7 +62,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_2 value seems to be a bit off.")
 
     def test_answer_3(self):
-        expected_value = False
+        expected_value = ('greet', 'Hello')
 
         try:
             actual_value = try_import(self.task_name).answer_3
@@ -68,7 +72,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_3 value seems to be a bit off.")
 
     def test_answer_4(self):
-        expected_value = True
+        expected_value = {}
 
         try:
             actual_value = try_import(self.task_name).answer_4
@@ -78,14 +82,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_4 value seems to be a bit off.")
 
     def test_answer_5(self):
-        expected_value = {
-            'age': 50,
-            'username': 'User2',
-            'weapons': 'Katana',
-            'is_active': False,
-            'clan': None,
-            'is_banned': True
-        }
+        expected_value = {'basket': [1, 2, 3], 'age': 55}
 
         try:
             actual_value = try_import(self.task_name).answer_5
@@ -93,23 +90,6 @@ class TestCase(unittest.TestCase):
             self.fail(msg="The variable answer_5 seems to be undefined. Do not remove it from the task code.")
 
         self.assertEqual(expected_value, actual_value, msg="The answer_5 value seems to be a bit off.")
-
-    def test_answer_6(self):
-        expected_value = {
-            'age': 50,
-            'username': 'User2',
-            'weapons': 'Katana',
-            'is_active': False,
-            'clan': None,
-            'is_banned': True
-        }
-
-        try:
-            actual_value = try_import(self.task_name).answer_6
-        except AttributeError:
-            self.fail(msg="The variable answer_6 seems to be undefined. Do not remove it from the task code.")
-
-        self.assertEqual(expected_value, actual_value, msg="The answer_6 value seems to be a bit off.")
 
 
 if __name__ == '__main__':

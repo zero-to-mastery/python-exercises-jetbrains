@@ -11,7 +11,8 @@ answer_2 = "Hello Cindy, your balance is 50."
 # answer_3 is "Hello {name}, your balance is {amount}.".format(name="Cindy", amount=50)
 answer_3 = "Hello Cindy, your balance is 50."
 
-# Rewrite using f-string
+# Now rewrite the SAME sentence using an f-string
+# Output should be: "Hello Cindy, your balance is 50."
 name = 'Cindy'
 amount = 50
 f_string_version = f"Hello {name}, your balance is {amount}."

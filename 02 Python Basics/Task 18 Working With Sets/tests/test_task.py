@@ -12,10 +12,10 @@ def try_import(task_name):
 
 
 class TestCase(unittest.TestCase):
-    task_name = 'dictionaries_exercise'
+    task_name = 'sets'
     task_file = os.path.join(
         os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-        'Dictionaries.py'
+        'Sets.py'
     )
 
     def setUp(self):
@@ -38,7 +38,7 @@ class TestCase(unittest.TestCase):
                       "IDE-highlighted errors and warnings.".format(str(e)))
 
     def test_answer_1(self):
-        expected_value = ['age', 'username', 'weapons', 'is_active', 'clan']
+        expected_value = {'Tammy'}
 
         try:
             actual_value = try_import(self.task_name).answer_1
@@ -48,7 +48,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_1 value seems to be a bit off.")
 
     def test_answer_2(self):
-        expected_value = 'Katana'
+        expected_value = {'Jammy', 'Bobby', 'Danny', 'Sally'}
 
         try:
             actual_value = try_import(self.task_name).answer_2
@@ -58,7 +58,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_2 value seems to be a bit off.")
 
     def test_answer_3(self):
-        expected_value = False
+        expected_value = {'Bobby', 'Tammy', 'Jammy', 'Sally', 'Danny'}
 
         try:
             actual_value = try_import(self.task_name).answer_3
@@ -68,7 +68,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_3 value seems to be a bit off.")
 
     def test_answer_4(self):
-        expected_value = True
+        expected_value = False
 
         try:
             actual_value = try_import(self.task_name).answer_4
@@ -76,40 +76,6 @@ class TestCase(unittest.TestCase):
             self.fail(msg="The variable answer_4 seems to be undefined. Do not remove it from the task code.")
 
         self.assertEqual(expected_value, actual_value, msg="The answer_4 value seems to be a bit off.")
-
-    def test_answer_5(self):
-        expected_value = {
-            'age': 50,
-            'username': 'User2',
-            'weapons': 'Katana',
-            'is_active': False,
-            'clan': None,
-            'is_banned': True
-        }
-
-        try:
-            actual_value = try_import(self.task_name).answer_5
-        except AttributeError:
-            self.fail(msg="The variable answer_5 seems to be undefined. Do not remove it from the task code.")
-
-        self.assertEqual(expected_value, actual_value, msg="The answer_5 value seems to be a bit off.")
-
-    def test_answer_6(self):
-        expected_value = {
-            'age': 50,
-            'username': 'User2',
-            'weapons': 'Katana',
-            'is_active': False,
-            'clan': None,
-            'is_banned': True
-        }
-
-        try:
-            actual_value = try_import(self.task_name).answer_6
-        except AttributeError:
-            self.fail(msg="The variable answer_6 seems to be undefined. Do not remove it from the task code.")
-
-        self.assertEqual(expected_value, actual_value, msg="The answer_6 value seems to be a bit off.")
 
 
 if __name__ == '__main__':

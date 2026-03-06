@@ -1,26 +1,54 @@
-# Working With Strings
+# Strings in Python
 
-## What Are Strings?
+## What Is a String?
 
-Strings are sequences of characters used to store text. In Python, strings are created using single quotes `'text'` or double quotes `"text"`.
+A string (`str`) is Python’s text type. Strings store characters (letters, numbers, symbols) in order. You create them using quotes:
 
-## String Methods
+```python
+text = 'Hello'
+```
 
-Strings have built-in methods you can call with dot notation. Common methods include transformations to change case, clean up whitespace, and manipulate text.
+Strings are immutable, which means methods don’t change the original string — they return a new one.
 
-## String Operations
+## Building Strings
+
+You can create new strings using operators.
 
 ### Concatenation
-Combine strings together using the `+` operator. Remember to add spaces explicitly if you want them!
+
+Concatenation joins strings with `+`:
+
+```python
+full = 'Hello' + ' ' + 'World'
+```
 
 ### Repetition
-Repeat strings using the `*` operator with a number.
 
-### F-strings
-Insert variables into strings using f-strings. They start with `f` and use curly braces `{}` for variables.
+Repetition repeats a string with `*`:
 
-### String Indexing
-Access individual characters by their position (index):
-- Positions start at 0
-- Positive numbers count from the start (0, 1, 2, ...)
-- Negative numbers count from the end (-1 is last, -2 is second-to-last, ...)
+```python
+triple = 'Python' * 3
+```
+
+If you want to join text with a number, convert the number to a string first using `str()`:
+
+```python
+message = 'hello ' + str(5)
+```
+
+## Useful String Tools
+
+### Case and Cleanup
+
+- `upper()` makes all letters uppercase
+- `lower()` makes all letters lowercase
+- `strip()` removes whitespace from the left and right sides
+
+### Search and Replace
+
+- `find(sub)` returns the index of the first match (or `-1` if not found)
+- `replace(old, new)` returns a new string where `old` is replaced by `new`
+
+### Length
+
+- `len(text)` returns the number of characters in a string

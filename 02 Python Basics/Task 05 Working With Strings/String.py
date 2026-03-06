@@ -12,10 +12,14 @@ answer_3 = '  hello  '.strip()  # Remove whitespace
 answer_4 = 'Hello' + ' ' + 'World'  # Concatenate with space
 answer_5 = 'Python' * 3  # Repeat 3 times
 
-# String formatting
-age = 25
-answer_6 = f'I am {age} years old'  # Use f-string with age variable
+# Find and replace
+quote = 'to be or not to be'
+answer_6 = quote.find('be')    # Find the index of the first 'be'
+answer_7 = quote.replace('be', 'me')    # Replace all 'be' with 'me'
 
-# String indexing
-answer_7 = name[0]  # Get first character
-answer_8 = name[-1]  # Get last character
+# String Length
+word = 'Helllooooo'
+answer_8 = len(word)   # Get the length of the word
+
+# Type conversion + concatenation
+answer_9 = 'hello ' + str(5)   # Convert number 5 to string type

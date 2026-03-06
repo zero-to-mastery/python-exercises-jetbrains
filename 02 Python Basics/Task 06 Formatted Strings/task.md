@@ -1,5 +1,15 @@
 # Formatted Strings
 
+## Mutable vs Immutable
+
+A mutable object can be changed after it is created.  
+Examples: `list`, `dict`, `set`.
+
+An immutable object cannot be changed after it is created.  
+Examples: `str`, `int`, `float`, `tuple`.
+
+Strings are immutable, so any “change” to a string actually creates and returns a new string.
+
 ## String formatting with format()
 
 `str.format()` inserts values into a string.

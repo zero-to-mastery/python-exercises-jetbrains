@@ -1,25 +1,25 @@
 type: edu
-custom_name: Dictionary Methods
+custom_name: Sets Exercise
 files:
   - name: task.md
     visible: false
   - name: tests/test_task.py
     visible: false
-  - name: ExerciseDictionaryMethods.py
+  - name: ExerciseSets.py
     visible: true
     placeholders:
-      - offset: 212
-        length: 9
+      - offset: 112
+        length: 8
         placeholder_text: ???
-      - offset: 292
-        length: 16
+      - offset: 288
+        length: 25
         placeholder_text: ???
-      - offset: 376
-        length: 14
+      - offset: 383
+        length: 27
         placeholder_text: ???
-      - offset: 461
-        length: 24
+      - offset: 504
+        length: 27
         placeholder_text: ???
-      - offset: 577
-        length: 18
+      - offset: 597
+        length: 10
         placeholder_text: ???

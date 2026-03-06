@@ -1,0 +1,23 @@
+type: edu
+custom_name: Dictionary Methods II
+files:
+  - name: tests/test_task.py
+    visible: false
+  - name: ExerciseDictionaryMethodsII.py
+    visible: true
+    placeholders:
+      - offset: 148
+        length: 11
+        placeholder_text: ???
+      - offset: 368
+        length: 16
+        placeholder_text: ???
+      - offset: 489
+        length: 15
+        placeholder_text: ???
+      - offset: 553
+        length: 19
+        placeholder_text: ???
+      - offset: 608
+        length: 7
+        placeholder_text: ???

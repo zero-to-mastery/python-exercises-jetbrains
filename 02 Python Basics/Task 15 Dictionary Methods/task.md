@@ -1,41 +1,19 @@
 # Dictionary Methods
 
-## Working with Dictionary Methods
+## Theory
 
-Dictionaries come with powerful methods for adding, accessing, modifying, and copying data. Understanding these methods is essential for effective Python programming.
+When you read data from a dictionary, there are a few tools that help you do it safely and conveniently.
 
-## Essential Dictionary Methods
+### Safe access
 
-### keys()
-Returns all dictionary keys as a view object (convertible to a list):
-```python
-user.keys()  # dict_keys(['age', 'username'])
-```
+`dict.get(key, default)` returns the value for `key`. If the key is missing, it returns the `default` value instead of raising an error. If you don’t pass a default, missing keys return `None`.
 
-### copy()
-Creates a shallow copy of the dictionary. Changes to the copy don't affect the original:
-```python
-user2 = user.copy()
-```
+### Key existence
 
-### Accessing Nested Values
-When dictionary values are lists or other data structures, you can access and modify them using chaining:
-```python
-user['weapons'].append('sword')  # Adds to the list inside the dictionary
-```
+The `in` operator checks for keys by default. For example, `'basket' in user` is `True` if `'basket'` is a key in the dictionary, and `False` otherwise. This is a quick way to test whether a key exists before you try to access it.
 
-## Adding and Modifying Keys
+### Views and order
 
-Use bracket notation to add new keys or update existing ones:
-```python
-user['is_banned'] = False  # Adds new key
-user['is_banned'] = True   # Updates existing key
-```
+`dict.values()` returns a view of all values stored in the dictionary. You can use `in` with it to check whether a specific value exists, for example `'Hello' in user.values()`.
 
-## Practical Applications
-
-Dictionaries are perfect for representing real-world entities like:
-- User profiles with multiple attributes
-- Game characters with stats and inventory
-- Configuration settings
-- API responses
+`dict.items()` returns a view of all key–value pairs as `(key, value)` tuples. Converting it to a list with `list(user.items())` gives you a regular list of tuples, which is often easier to inspect, compare in tests, or loop over. In modern Python, keys/values/items keep the insertion order of the dictionary.

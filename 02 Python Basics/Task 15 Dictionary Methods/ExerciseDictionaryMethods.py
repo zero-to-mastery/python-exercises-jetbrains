@@ -1,27 +1,22 @@
-# Dictionary Methods Exercise
+# Getting data from a dictionary Exercise
 
-# 1. Create a user profile for your game
 user = {
-    'age': ___,
-    'username': '___',
-    'weapons': [___],
-    'is_active': ___,
-    'clan': '___'
+    'basket': [1, 2, 3],
+    'greet': 'Hello',
+    'age': 20
 }
 
-# 2. Print all keys
-keys_list = list(user.___())
+# Get the value under key 'age' using .get(). If there is no 'age', use 55.
+answer_1 = user.get('age', 55)
 
-# 3. Add a new weapon
-user['weapons'].___(___)
+# Check if there is a key 'basket' in user (True/False).
+answer_2 = 'basket' in user
 
-# 4. Add 'is_banned' key, set to False
-user[___] = ___
+# Check if there is a key 'size' in user (True/False).
+answer_3 = 'size' in user
 
-# 5. Ban the user
-user['is_banned'] = ___
+# Check if there is a value 'Hello' in user (True/False).
+answer_4 = 'Hello' in user.values()
 
-# 6. Copy user and update age and username
-user2 = user.___()
-user2['age'] = ___
-user2['username'] = '___'
+# Get all key-value pairs from user using .items() and convert them to a list.
+answer_5 = list(user.items())

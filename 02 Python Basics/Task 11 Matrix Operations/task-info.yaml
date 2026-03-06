@@ -8,6 +8,6 @@ files:
     placeholders:
       - offset: 157
         length: 15
-        placeholder_text: "# basket[?][?][?]"
+        placeholder_text: "basket[?][?][?]"
   - name: tests/test_task.py
     visible: false

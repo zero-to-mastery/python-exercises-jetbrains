@@ -88,7 +88,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_5 value seems to be a bit off.")
 
     def test_answer_6(self):
-        expected_value = 'I am 25 years old'
+        expected_value = 3
 
         try:
             actual_value = try_import(self.task_name).answer_6
@@ -98,7 +98,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_6 value seems to be a bit off.")
 
     def test_answer_7(self):
-        expected_value = 'P'
+        expected_value = 'to me or not to me'
 
         try:
             actual_value = try_import(self.task_name).answer_7
@@ -108,7 +108,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected_value, actual_value, msg="The answer_7 value seems to be a bit off.")
 
     def test_answer_8(self):
-        expected_value = 'n'
+        expected_value = 10
 
         try:
             actual_value = try_import(self.task_name).answer_8
@@ -116,6 +116,16 @@ class TestCase(unittest.TestCase):
             self.fail(msg="The variable answer_8 seems to be undefined. Do not remove it from the task code.")
 
         self.assertEqual(expected_value, actual_value, msg="The answer_8 value seems to be a bit off.")
+
+    def test_answer_9(self):
+        expected_value = 'hello 5'
+
+        try:
+            actual_value = try_import(self.task_name).answer_9
+        except AttributeError:
+            self.fail(msg="The variable answer_9 seems to be undefined. Do not remove it from the task code.")
+
+        self.assertEqual(expected_value, actual_value, msg="The answer_9 value seems to be a bit off.")
 
 
 if __name__ == '__main__':

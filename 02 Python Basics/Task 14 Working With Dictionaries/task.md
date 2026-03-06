@@ -1,69 +1,23 @@
 # Working With Dictionaries
 
-Dictionaries store key–value pairs. You access values by key, not by position (like in lists).
+## Theory
 
-```python
-student = {'name': 'Alice', 'age': 20}
-```
+A dictionary (`dict`) is a data structure for storing data as **key -> value** pairs. It is useful when you want to access information by a meaningful name (the key), not by position like in a list. A common example is storing information about a book, a product, or a student: keys like "title", "price", "grade" point to their values.
 
-## Core operations
+### Creating and accessing
 
-### Create, access, and nested access
+You can create a dictionary with curly braces `{}` using `key: value` pairs. Keys are often strings, and values can be different types: numbers, strings, booleans, `None`, lists, or even other dictionaries.
 
-Values can be any type — including lists and other dictionaries — so you can access nested elements step by step.
+To **read** a value, use square brackets with the key: `item['price']`. To **change** a value, assign to that key: `item['price'] = 10`. If the key does not exist yet, this assignment creates a new key in the dictionary.
 
-```python
-settings = {
-    'theme': 'dark',
-    'notifications': True,
-    'scores': [10, 20, 30]
-}
+### Inspecting keys
 
-settings['theme']       # access by key
-settings['scores'][1]   # nested access (value is a list)
-```
+`dict.keys()` returns a view of all keys stored in the dictionary. If you need a regular list (for example, for tests or for printing), convert it with `list(item.keys())`.
 
-### [] vs get()
+### Updating
 
-`d['key']` raises an error if the key doesn’t exist.
+`dict.update(...)` updates the dictionary using another dictionary. It adds new keys and overwrites existing keys with new values. For example, `item.update({'in_stock': True, 'price': 12})` can add "in_stock" and also replace the current "price".
 
-`d.get('key')` is safer: returns `None` (or a default value) if missing.
+### Copying
 
-```python
-student['age']              # works if 'age' exists
-student.get('age')          # safe access
-student.get('grade', 'A')   # default value if key is missing
-```
-
-### Add and update
-
-```python
-student['email'] = 'alice@example.com'     # add new key
-student['age'] = 21                        # update existing key
-student.update({'age': 22, 'city': 'Rome'})  # update multiple keys
-```
-
-## Useful dictionary tools
-
-Check what’s inside (`keys`, `values`, `items`, `in`).
-
-Important: `'x' in d` checks keys.
-
-```python
-student.keys()       # all keys
-student.values()     # all values
-student.items()      # (key, value) pairs
-
-'age' in student                      # key exists?
-'alice@example.com' in student.values()  # value exists?
-```
-
-## Copy, clear, and remove
-
-```python
-backup = student.copy()   # independent copy
-student.clear()           # becomes {}
-
-backup.pop('age')         # remove key and return its value
-backup.popitem()          # remove and return last inserted (key, value)
-```
+`dict.copy()` creates a new dictionary with the same key-value pairs. This is useful when you want to make changes to a copy without modifying the original dictionary. (It is a shallow copy: nested mutable values like lists are still shared, but simple values like numbers and strings are copied safely.)
