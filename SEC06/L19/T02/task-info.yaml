@@ -1,0 +1,12 @@
+type: edu
+custom_name: Guessing Game Testing Project
+files:
+  - name: exerciseMain.py
+    visible: true
+  - name: main.py
+    visible: true
+  - name: test.py
+    visible: true
+  - name: task.md
+    visible: false
+    propagatable: false

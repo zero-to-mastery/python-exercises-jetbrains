@@ -1,0 +1,10 @@
+type: edu
+custom_name: Basic Testing
+files:
+  - name: main.py
+    visible: true
+  - name: test.py
+    visible: true
+  - name: task.md
+    visible: false
+    propagatable: false

@@ -1,0 +1,16 @@
+title: ZTM Python Course
+language: English
+summary: "Learn Python programming from basics to advanced topics including OOP, functional\
+  \ programming, testing, and scripting."
+programming_language: Python
+content:
+  - SEC01
+  - SEC02
+  - SEC03
+  - SEC04
+  - SEC05
+  - SEC06
+  - SEC07
+additional_files:
+  - name: .idea/inspectionProfiles/profiles_settings.xml
+yaml_version: 5

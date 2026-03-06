@@ -1,0 +1,7 @@
+type: edu
+custom_name: "Break, Continue, Pass"
+files:
+  - name: task.py
+    visible: true
+  - name: task.md
+    visible: false

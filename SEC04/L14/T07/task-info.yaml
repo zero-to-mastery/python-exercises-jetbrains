@@ -1,0 +1,7 @@
+type: edu
+custom_name: MRO Method Resolution Order
+files:
+  - name: task.py
+    visible: true
+  - name: task.md
+    visible: false

@@ -1,0 +1,7 @@
+type: edu
+custom_name: Augmented Assignment Operator
+files:
+  - name: task.py
+    visible: true
+  - name: task.md
+    visible: false
