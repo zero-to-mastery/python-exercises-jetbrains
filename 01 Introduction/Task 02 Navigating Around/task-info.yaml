@@ -1,0 +1,22 @@
+type: theory
+custom_name: Navigating Around
+files:
+  - name: task.md
+    visible: false
+  - name: main.py
+    visible: true
+  - name: images/edu_course_overview.png
+    visible: false
+    is_binary: true
+  - name: images/edu_course_overview_dark.png
+    visible: false
+    is_binary: true
+  - name: images/forward.svg
+    visible: false
+    is_binary: true
+  - name: images/back.svg
+    visible: false
+    is_binary: true
+  - name: images/reset.svg
+    visible: false
+    is_binary: true
