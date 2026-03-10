@@ -11,7 +11,15 @@ print("Hello " + name)                 # Prints the greeting
 
 **Try It!**
 
-1. Click the green triangle ▶ at the top right
+1. Click the **Run** button (![](images/run.svg)) at the top right
 2. Type your name when asked
 3. Press Enter
 4. See your personalized greeting!
+
+<img src="images/hello_username.gif" width="800">
+
+<style>
+img {
+  display: inline !important;
+}
+</style>
