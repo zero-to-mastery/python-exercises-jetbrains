@@ -9,6 +9,6 @@ programming_language: Python
 programming_language_version: 3.8
 environment: unittest
 content:
-  - 01 Introduction
-  - 02 Python Basics
+  - L01
+  - L02
 yaml_version: 5
