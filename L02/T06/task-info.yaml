@@ -1,0 +1,7 @@
+type: edu
+custom_name: Highest Even Number
+files:
+  - name: task.py
+    visible: true
+  - name: task.md
+    visible: false

@@ -1,0 +1,28 @@
+type: edu
+custom_name: List Methods
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 89
+        length: 23
+        placeholder_text: "# TODO"
+      - offset: 150
+        length: 21
+        placeholder_text: "# TODO"
+      - offset: 226
+        length: 25
+        placeholder_text: "# TODO"
+      - offset: 305
+        length: 36
+        placeholder_text: "None  # TODO"
+      - offset: 421
+        length: 29
+        placeholder_text: "None  # TODO"
+      - offset: 487
+        length: 17
+        placeholder_text: "# TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

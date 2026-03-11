@@ -1,0 +1,25 @@
+type: edu
+custom_name: Nested List Access
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 111
+        length: 15
+        placeholder_text: "None  # TODO"
+      - offset: 176
+        length: 12
+        placeholder_text: "None  # TODO"
+      - offset: 248
+        length: 12
+        placeholder_text: "None  # TODO"
+      - offset: 351
+        length: 12
+        placeholder_text: "None  # TODO"
+      - offset: 410
+        length: 12
+        placeholder_text: "None  # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

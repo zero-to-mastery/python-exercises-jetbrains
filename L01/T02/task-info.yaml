@@ -1,0 +1,25 @@
+type: edu
+custom_name: Augmented Assignment Operators
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 98
+        length: 11
+        placeholder_text: "None  # TODO: add 15 to score"
+      - offset: 210
+        length: 13
+        placeholder_text: "None  # TODO: subtract 10 from balance"
+      - offset: 326
+        length: 13
+        placeholder_text: "None  # TODO: multiply quantity by 2"
+      - offset: 426
+        length: 10
+        placeholder_text: "None  # TODO: double total"
+      - offset: 548
+        length: 11
+        placeholder_text: "None  # TODO: subtract 20 from value"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

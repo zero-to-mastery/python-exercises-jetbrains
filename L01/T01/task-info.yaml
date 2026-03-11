@@ -1,0 +1,25 @@
+type: edu
+custom_name: Order of Operations
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 95
+        length: 16
+        placeholder_text: "None  # TODO: write expression to add 5 and 4, multiply by 10, then divide by 2"
+      - offset: 167
+        length: 10
+        placeholder_text: "None  # TODO: write expression for 20 plus 3 times 4"
+      - offset: 229
+        length: 10
+        placeholder_text: "None  # TODO: write expression to divide 15 by 3, then add 7"
+      - offset: 310
+        length: 11
+        placeholder_text: "None  # TODO: use parentheses to add 8 and 2 first, then multiply by 5"
+      - offset: 399
+        length: 7
+        placeholder_text: "None  # TODO: use floor division to divide 17 by 3"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

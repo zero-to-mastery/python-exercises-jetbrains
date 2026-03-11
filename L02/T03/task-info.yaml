@@ -1,0 +1,7 @@
+type: edu
+custom_name: Nested Loops Picture
+files:
+  - name: task.py
+    visible: true
+  - name: task.md
+    visible: false

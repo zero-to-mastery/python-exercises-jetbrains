@@ -1,0 +1,7 @@
+type: edu
+custom_name: Extending Built-in Classes
+files:
+  - name: task.py
+    visible: true
+  - name: task.md
+    visible: false

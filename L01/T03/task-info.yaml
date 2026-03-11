@@ -1,0 +1,27 @@
+type: edu
+custom_name: String Formatting
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 82
+        length: 19
+        placeholder_text: "None  # TODO: template that formats to 'The laptop costs $999.'"
+      - offset: 382
+        length: 40
+        placeholder_text: "None  # TODO: template that formats to 'Sarah placed order\
+      \ #12345. Thank you, Sarah!'"
+      - offset: 642
+        length: 48
+        placeholder_text: "None  # TODO: template that formats to 'Item: mouse, Quantity:\
+      \ 3, Total: $45'"
+      - offset: 926
+        length: 36
+        placeholder_text: "None  # TODO: should output 'Alex scored 87 points.'"
+      - offset: 1033
+        length: 39
+        placeholder_text: "None  # TODO: should output 'Area: 50 square meters'"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

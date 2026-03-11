@@ -1,0 +1,34 @@
+type: edu
+custom_name: String Slicing
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 70
+        length: 9
+        placeholder_text: "None  # TODO"
+      - offset: 124
+        length: 8
+        placeholder_text: "None  # TODO"
+      - offset: 172
+        length: 8
+        placeholder_text: "None  # TODO"
+      - offset: 216
+        length: 8
+        placeholder_text: "None  # TODO"
+      - offset: 259
+        length: 9
+        placeholder_text: "None  # TODO"
+      - offset: 325
+        length: 9
+        placeholder_text: "None  # TODO"
+      - offset: 373
+        length: 10
+        placeholder_text: "None  # TODO"
+      - offset: 420
+        length: 9
+        placeholder_text: "None  # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

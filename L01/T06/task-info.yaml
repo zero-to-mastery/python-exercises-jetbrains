@@ -1,0 +1,25 @@
+type: edu
+custom_name: String Length and Repetition
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 59
+        length: 9
+        placeholder_text: "None  # TODO"
+      - offset: 111
+        length: 8
+        placeholder_text: "None  # TODO"
+      - offset: 225
+        length: 19
+        placeholder_text: "None  # TODO"
+      - offset: 336
+        length: 18
+        placeholder_text: "None  # TODO"
+      - offset: 430
+        length: 13
+        placeholder_text: "None  # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

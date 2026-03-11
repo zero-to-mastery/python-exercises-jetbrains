@@ -1,0 +1,25 @@
+type: edu
+custom_name: Type Conversion
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 70
+        length: 19
+        placeholder_text: "None  # TODO"
+      - offset: 179
+        length: 26
+        placeholder_text: "None  # TODO"
+      - offset: 291
+        length: 28
+        placeholder_text: "None  # TODO"
+      - offset: 410
+        length: 35
+        placeholder_text: "None  # TODO"
+      - offset: 579
+        length: 34
+        placeholder_text: "None  # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

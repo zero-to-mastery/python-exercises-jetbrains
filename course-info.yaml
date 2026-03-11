@@ -1,0 +1,63 @@
+title: Zero to Mastery Python Course
+language: English
+summary: Python programming exercises covering basics, advanced concepts, testing, and scripting
+programming_language: Python
+environment: unittest
+content:
+  - L01
+  - L02
+  - L03
+  - L04
+  - L05
+additional_files:
+  - name: Notes from classes/Advanced Python/AttributesAndMethods.py
+  - name: Notes from classes/Advanced Python/ClassmethodAndStaticmethod.py
+  - name: Notes from classes/Advanced Python/CreatingOurOwnObjects.py
+  - name: Notes from classes/Advanced Python/DunderMethods.py
+  - name: Notes from classes/Advanced Python/Encapsulation.py
+  - name: Notes from classes/Advanced Python/Generators.py
+  - name: Notes from classes/Advanced Python/Inheritance.py
+  - name: Notes from classes/Advanced Python/Init.py
+  - name: Notes from classes/Advanced Python/MroMethodResolutionOrder.py
+  - name: Notes from classes/Advanced Python/MultipleInheritance.py
+  - name: Notes from classes/Advanced Python/ObjectIntrospection.py
+  - name: Notes from classes/Advanced Python/OOP.py
+  - name: Notes from classes/Advanced Python/Polymorphism.py
+  - name: Notes from classes/Advanced Python/PrivateVsPublicVariables.py
+  - name: Notes from classes/Advanced Python/super().py
+  - name: Notes from classes/Advanced Python/UndertheHoodGenerators.py
+  - name: Notes from classes/Modules in Python/GuessingGame.py
+  - name: Notes from classes/Python Basics/Dictionaries.py
+  - name: Notes from classes/Python Basics/Int&Float.py
+  - name: Notes from classes/Python Basics/Lists.py
+  - name: Notes from classes/Python Basics/Sets.py
+  - name: Notes from classes/Python Basics/String.py
+  - name: Notes from classes/Python Basics/Tuples.py
+  - name: Notes from classes/Python Basics II/ArgsAndKwargs.py
+  - name: Notes from classes/Python Basics II/BreakContinuePass.py
+  - name: Notes from classes/Python Basics II/CleanCode.py
+  - name: Notes from classes/Python Basics II/ConditionalLogic.py
+  - name: Notes from classes/Python Basics II/Docstrings.py
+  - name: Notes from classes/Python Basics II/Enumerate().py
+  - name: Notes from classes/Python Basics II/ForLoops.py
+  - name: Notes from classes/Python Basics II/Functions.py
+  - name: Notes from classes/Python Basics II/GlobalKeyword.py
+  - name: Notes from classes/Python Basics II/IsVs==.py
+  - name: Notes from classes/Python Basics II/Iterables.py
+  - name: Notes from classes/Python Basics II/NonLocalKeyword.py
+  - name: Notes from classes/Python Basics II/ParametersAndArguments.py
+  - name: Notes from classes/Python Basics II/Range().py
+  - name: Notes from classes/Python Basics II/Return.py
+  - name: Notes from classes/Python Basics II/ScopeRules.py
+  - name: Notes from classes/Python Basics II/TernaryOperator.py
+  - name: Notes from classes/Python Basics II/Walrus.py
+  - name: Notes from classes/Python Basics II/WhileLoops.py
+  - name: Notes from classes/Python Introduction/OurFirstPythonProgram.py
+  - name: Notes from classes/Testing in Python/GuessingGame_main.py
+  - name: Notes from classes/Testing in Python/GuessingGame_test.py
+  - name: Notes from classes/Testing in Python/main_root.py
+  - name: Notes from classes/Testing in Python/test_root.py
+  - name: jetbrains-course-quality.md
+  - name: jetbrains-course-interactivity.md
+  - name: jetbrains-course-creation.md
+yaml_version: 5
