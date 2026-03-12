@@ -1,54 +1,47 @@
-# Numbers: Int and Float
+# Formatted Strings
 
-## What Are Numbers in Python?
+## Mutable vs Immutable
 
-Python has two main numeric types:
-- **`int`** - integers (whole numbers like 5, -3, 1000)
-- **`float`** - floating-point numbers (decimals like 3.14, -0.5, 2.0)
+A mutable object can be changed after it is created.  
+Examples: `list`, `dict`, `set`.
 
-## Arithmetic Operators
+An immutable object cannot be changed after it is created.  
+Examples: `str`, `int`, `float`, `tuple`.
 
-Python supports standard math operations:
-- **`+`** - addition
-- **`-`** - subtraction
-- **`*`** - multiplication
-- **`/`** - division
+Strings are immutable, so any “change” to a string actually creates and returns a new string.
 
-## Special Operators
+## String formatting with format()
 
-Python has additional operators for specific calculations:
-- **`**`** - exponentiation (power)
-- **`//`** - floor division (rounds down to nearest integer)
-- **`%`** - modulo (returns remainder after division)
+`str.format()` inserts values into a string.
+It returns a new string (strings are immutable).
 
-**Examples of what they do:**
 ```python
-# Exponentiation
-3 ** 2  # 3 to the power of 2
-
-# Floor division
-7 // 2  # Division rounded down
-
-# Modulo
-7 % 2   # Remainder when 7 is divided by 2
+"Hello {}, you have {} messages.".format("Alex", 3)
 ```
 
-## Built-in Math Functions
+### Positional placeholders
 
-Python provides useful math functions:
-- **`round(x)`** - rounds a number to nearest integer
-- **`abs(x)`** - returns absolute value (removes negative sign)
-- **`bin(x)`** - converts integer to binary string representation
+Use `{0}`, `{1}`, ... to refer to arguments by index:
 
-## Type Conversion
-
-You can convert between types:
 ```python
-int("0b101", 2)  # Converts binary string to integer
+"Hello {0}, you have {1} messages.".format("Alex", 3)
 ```
 
-## Your Task
+### Named placeholders
 
-Your task is to calculate all values. Pay attention to how different operators behave with different number types!
+Use names inside braces and pass keyword arguments:
 
-Be careful with types: `'1'` is not the same as `1` — those are strings, while 1 is a number.
+```python
+"Hello {name}, you have {count} messages.".format(name="Alex", count=3)
+```
+
+## f-strings
+
+Prefix a string with `f` and put expressions inside `{}`.
+This is often the most readable option.
+
+```python
+name = "Alex"
+count = 3
+f"Hello {name}, you have {count} messages."
+```

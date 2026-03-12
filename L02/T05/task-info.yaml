@@ -1,37 +1,13 @@
 type: edu
-custom_name: Working With Strings
+custom_name: Type Conversion
 files:
   - name: task.md
     visible: false
-  - name: String.py
+  - name: ExerciseTypeConversion.py
     visible: true
     placeholders:
-      - offset: 103
-        length: 5
-        placeholder_text: ???
-      - offset: 151
-        length: 5
-        placeholder_text: ???
-      - offset: 206
-        length: 5
-        placeholder_text: ???
-      - offset: 275
-        length: 7
-        placeholder_text: ???
-      - offset: 339
-        length: 1
-        placeholder_text: ???
-      - offset: 425
-        length: 10
-        placeholder_text: ???
-      - offset: 491
-        length: 20
-        placeholder_text: ???
-      - offset: 591
-        length: 9
-        placeholder_text: ???
-      - offset: 689
-        length: 3
-        placeholder_text: ???
+      - offset: 260
+        length: 15
+        placeholder_text: birth_year
   - name: tests/test_task.py
     visible: false

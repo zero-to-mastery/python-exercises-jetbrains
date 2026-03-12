@@ -1,13 +1,25 @@
 type: edu
-custom_name: Introduction To Lists
+custom_name: List Methods
 files:
   - name: task.md
     visible: false
-  - name: Lists.py
-    visible: true
-    placeholders:
-      - offset: 207
-        length: 1
-        placeholder_text: ???
   - name: tests/test_task.py
     visible: false
+  - name: ExerciseListMethods.py
+    visible: true
+    placeholders:
+      - offset: 121
+        length: 16
+        placeholder_text: ???
+      - offset: 183
+        length: 21
+        placeholder_text: ???
+      - offset: 249
+        length: 14
+        placeholder_text: ???
+      - offset: 316
+        length: 19
+        placeholder_text: ???
+      - offset: 400
+        length: 15
+        placeholder_text: ???

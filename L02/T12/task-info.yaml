@@ -1,25 +1,13 @@
 type: edu
-custom_name: List Methods
+custom_name: Working With Sets
 files:
   - name: task.md
     visible: false
-  - name: tests/test_task.py
-    visible: false
-  - name: ExerciseListMethods.py
+  - name: Sets.py
     visible: true
     placeholders:
-      - offset: 124
-        length: 16
+      - offset: 244
+        length: 27
         placeholder_text: ???
-      - offset: 189
-        length: 21
-        placeholder_text: ???
-      - offset: 258
-        length: 14
-        placeholder_text: ???
-      - offset: 328
-        length: 19
-        placeholder_text: ???
-      - offset: 415
-        length: 15
-        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

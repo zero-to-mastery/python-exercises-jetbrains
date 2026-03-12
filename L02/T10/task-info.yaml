@@ -1,31 +1,14 @@
 type: edu
-custom_name: List Slicing
+custom_name: Common List Patterns
 files:
   - name: task.md
     visible: false
   - name: tests/test_task.py
     visible: false
-  - name: ExerciseListSlicing.py
+  - name: ExerciseCommonListPatterns.py
     visible: true
     placeholders:
-      - offset: 74
-        length: 13
-        placeholder_text: ???
-      - offset: 161
-        length: 1
-        placeholder_text: ???
-      - offset: 212
-        length: 2
-        placeholder_text: ???
-      - offset: 265
-        length: 3
-        placeholder_text: ???
-      - offset: 334
-        length: 13
-        placeholder_text: ???
-      - offset: 462
-        length: 13
-        placeholder_text: ???
-      - offset: 511
-        length: 18
-        placeholder_text: ???
+      - offset: 187
+        length: 41
+        placeholder_text: "friends = friends.sort() + new_friend  # Wrong solution, try\
+      \ to fix it"

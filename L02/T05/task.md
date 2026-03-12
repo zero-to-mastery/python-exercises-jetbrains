@@ -1,54 +1,39 @@
-# Strings in Python
+# Type Conversion
 
-## What Is a String?
-
-A string (`str`) is Python’s text type. Strings store characters (letters, numbers, symbols) in order. You create them using quotes:
-
+In this task you'll see:
 ```python
-text = 'Hello'
+birth_year = '1990'  # This is a string!
+age = 2026 - birth_year
 ```
 
-Strings are immutable, which means methods don’t change the original string — they return a new one.
+If you run this code, you'll get an error. Why?
 
-## Building Strings
+## Understanding Types
 
-You can create new strings using operators.
+Python has different data types:
+- **Strings** - text in quotes: `'1990'`, `"hello"`
+- **Integers** - whole numbers: `1990`, `42`, `-5`
+- **Floats** - decimals: `3.14`, `2.5`
 
-### Concatenation
+Each type has different capabilities. You can't perform math directly on strings!
 
-Concatenation joins strings with `+`:
+## Type Conversion Functions
 
+Python provides functions to convert between types:
+
+| Function | Purpose | Example Input | Example Output |
+|----------|---------|---------------|----------------|
+| `int()` | Convert to integer | `'1990'` | `1990` |
+| `float()` | Convert to float | `'3.14'` | `3.14` |
+| `str()` | Convert to string | `1990` | `'1990'` |
+
+## How to Use Conversion Functions
+
+Wrap the value you want to convert:
 ```python
-full = 'Hello' + ' ' + 'World'
+text_number = '42'
+real_number = conversion_function(text_number)
 ```
 
-### Repetition
-
-Repetition repeats a string with `*`:
-
-```python
-triple = 'Python' * 3
-```
-
-If you want to join text with a number, convert the number to a string first using `str()`:
-
-```python
-message = 'hello ' + str(5)
-```
-
-## Useful String Tools
-
-### Case and Cleanup
-
-- `upper()` makes all letters uppercase
-- `lower()` makes all letters lowercase
-- `strip()` removes whitespace from the left and right sides
-
-### Search and Replace
-
-- `find(sub)` returns the index of the first match (or `-1` if not found)
-- `replace(old, new)` returns a new string where `old` is replaced by `new`
-
-### Length
-
-- `len(text)` returns the number of characters in a string
+## Your Task
+The variable `birth_year` is currently a string. To use it in math, you need to convert it to a number type first.

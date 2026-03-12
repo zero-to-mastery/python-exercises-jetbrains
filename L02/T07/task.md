@@ -1,43 +1,28 @@
-# String Indexes
+# List Slicing
 
-## Indexing a string
+## What Is Slicing?
 
-Strings are ordered sequences of characters.
-Indexing starts at 0.
+Slicing lets you extract portions of a list using a range of indices. It's a powerful way to work with subsets of data without modifying the original list.
 
-```python
-text = "Data Science"
-text[0]   # 'D'
-text[-1]  # 'e' (negative indexes count from the end)
-```
+## Indexing Recap
 
-## Slicing a string
+Before slicing, remember basic indexing:
+- **Positive indices** - Count from the start (0, 1, 2, ...)
+- **Negative indices** - Count from the end (-1 is last, -2 is second-to-last, ...)
 
-Slicing uses `[start:stop:step]` and returns a new string.
-`start` is inclusive, `stop` is exclusive.
+## Slice Syntax
 
 ```python
-text[1:4]   # 'ata'
-text[5:]    # from index 5 to the end
-text[:]     # full copy of the string
-text[2:9]   # stop beyond length is allowed too
+list[start:end]
 ```
 
-## Negative indexes in slices
+- **start** - First index to include
+- **end** - Stop BEFORE this index (not included!)
+- Creates a new list with elements from start up to (but not including) end
 
-Negative values count from the end:
+## List Independence
 
-```python
-text[:-4]  # everything except the last 4 characters
-text[-4:]  # last 4 characters
-```
+When you create new lists (through slicing, concatenation, etc.), they are independent:
+- Changes to the original don't affect copies
+- Changes to copies don't affect the original
 
-## Step and reverse
-
-The step controls how many characters to skip.
-A step of `-1` reverses the string.
-
-```python
-text[::2]   # every second character
-text[::-1]  # reversed string
-```

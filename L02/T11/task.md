@@ -1,36 +1,23 @@
-# Matrix Operations
+# Working With Dictionaries
 
-## What Are Nested Lists?
+## Theory
 
-Lists can contain other lists as elements. These "lists within lists" are called **nested lists** or **multi-dimensional lists**. They're useful for representing complex data structures like grids, tables, or hierarchical data.
+A dictionary (`dict`) is a data structure for storing data as **key -> value** pairs. It is useful when you want to access information by a meaningful name (the key), not by position like in a list. A common example is storing information about a book, a product, or a student: keys like "title", "price", "grade" point to their values.
 
-```python
-simple_list = [1, 2, 3]
-nested_list = [1, [2, 3], 4]
-deeply_nested = ["a", ["b", ["c", "d"], "e"], "f"]
-```
+### Creating and accessing
 
-## Accessing Nested Elements
+You can create a dictionary with curly braces `{}` using `key: value` pairs. Keys are often strings, and values can be different types: numbers, strings, booleans, `None`, lists, or even other dictionaries.
 
-To access elements in nested lists, use **chained indexing** - apply multiple index operations one after another:
+To **read** a value, use square brackets with the key: `item['price']`. To **change** a value, assign to that key: `item['price'] = 10`. If the key does not exist yet, this assignment creates a new key in the dictionary.
 
-```python
-data = ["first", ["second", "third"], "fourth"]
+### Inspecting keys
 
-# Access the nested list at index 1
-data[1]  # Returns ["second", "third"]
+`dict.keys()` returns a view of all keys stored in the dictionary. If you need a regular list (for example, for tests or for printing), convert it with `list(item.keys())`.
 
-# Chain indices to access elements within the nested list
-data[1][0]  # Returns "second"
-data[1][1]  # Returns "third"
-```
+### Updating
 
-## How It Works
+`dict.update(...)` updates the dictionary using another dictionary. It adds new keys and overwrites existing keys with new values. For example, `item.update({'in_stock': True, 'price': 12})` can add "in_stock" and also replace the current "price".
 
-Each index operation selects one level deeper:
-- First index: selects from the outer list
-- Second index: selects from the list you just accessed
-- Third index: goes even deeper (if nested further)
+### Copying
 
-Think of it like drilling down through layers - each index takes you one layer deeper into the structure.
-
+`dict.copy()` creates a new dictionary with the same key-value pairs. This is useful when you want to make changes to a copy without modifying the original dictionary. (It is a shallow copy: nested mutable values like lists are still shared, but simple values like numbers and strings are copied safely.)

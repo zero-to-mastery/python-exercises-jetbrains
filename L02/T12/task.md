@@ -1,46 +1,35 @@
-# List Methods
+# Working With Sets
 
-## What Are List Methods?
+## Theory
 
-Methods are built-in functions that belong to specific data types. Lists come with powerful methods that let you add, remove, find, and manipulate elements. These methods modify the list directly rather than creating a new one.
+A **set** (`set`) is a collection that stores **unique** values. That means duplicates are removed automatically. Sets are great when you need to quickly check “is this value present?” or when you want to compare groups of items (for example: who is in the school database vs who was present today).
 
-## Common List Methods
+## Difference
 
-### Adding Elements
-- **append()** - Adds an item to the end of the list
-- **insert()** - Adds an item at a specific position
-- **extend()** - Adds all items from another list to the end
+One of the most useful set operations is **difference**.
 
-### Removing Elements
-- **remove()** - Removes the first occurrence of a specific value
-- **pop()** - Removes and returns an item at a specific position (or the last item if no position given)
-- **clear()** - Removes all items from the list
+`A.difference(B)` returns a **new set** with all elements that are in `A` but **not** in `B`.
+So it answers the question: “Who/what is missing from `B`, compared to `A`?”
 
-### Finding Information
-- **count()** - Returns how many times a value appears in the list
-- **index()** - Returns the position of the first occurrence of a value
+`difference()` does not require `B` to be a set. The second argument can be any **iterable** (like a list or tuple). Python will compare the values and return the missing ones.
 
-### Reordering and Copying
-- **sort()** - Sorts the list in place
-- **reverse()** - Reverses the list in place
-- **copy()** - Creates a shallow copy of the list
+## Intersection
 
-## Method Syntax
+Another useful operation is **intersection**.
 
-Methods are called using dot notation:
+`A.intersection(B)` returns a **new set** with elements that appear in **both** `A` and `B`.
+This answers: “Who/what is included in both groups?”
 
-```python
-my_list.method_name(arguments)
-```
+## Union
 
-Some methods need arguments (values to work with), others don't:
-- `basket.append("Kiwi")` - needs the item to add
-- `basket.remove("Banana")` - needs the item to remove
-- `basket.count("Apples")` - needs the item to count
+You can also combine groups using **union**.
 
-## Mutability Reminder
+`A.union(B)` returns a **new set** with **all unique** elements from `A` and `B`.
+This answers: “What are all the unique names/items we have in total?”
 
-List methods typically **modify the original list** - they don't create a copy. After calling a method, your list has changed.
-Most list methods return `None` because the list itself is modified.
+## Disjoint
 
+Finally, `A.isdisjoint(B)` checks if two collections have **no elements in common**.
+It returns `True` if they do not overlap at all, and `False` if they share at least one value.
 
+Just like `difference()`, these methods (`intersection`, `union`, `isdisjoint`) can take any **iterable** as the second argument.

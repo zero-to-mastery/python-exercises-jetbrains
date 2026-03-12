@@ -1,47 +1,23 @@
-# Formatted Strings
+# Password Checker
 
-## Mutable vs Immutable
+## What Is Password Masking?
 
-A mutable object can be changed after it is created.  
-Examples: `list`, `dict`, `set`.
+When applications display passwords, they often hide the actual characters by replacing them with asterisks (`*`). This protects privacy by preventing others from seeing the password on screen.
 
-An immutable object cannot be changed after it is created.  
-Examples: `str`, `int`, `float`, `tuple`.
+For example:
+- Actual password: `super_secret`
+- Displayed password: `************`
 
-Strings are immutable, so any “change” to a string actually creates and returns a new string.
+## String Operations Needed
 
-## String formatting with format()
-
-`str.format()` inserts values into a string.
-It returns a new string (strings are immutable).
-
+### String Repetition
+You can repeat strings using the `*` operator:
 ```python
-"Hello {}, you have {} messages.".format("Alex", 3)
+character * number  # Repeats the character 'number' times
 ```
 
-### Positional placeholders
-
-Use `{0}`, `{1}`, ... to refer to arguments by index:
-
+### String Length
+The `len()` function returns how many characters are in a string:
 ```python
-"Hello {0}, you have {1} messages.".format("Alex", 3)
-```
-
-### Named placeholders
-
-Use names inside braces and pass keyword arguments:
-
-```python
-"Hello {name}, you have {count} messages.".format(name="Alex", count=3)
-```
-
-## f-strings
-
-Prefix a string with `f` and put expressions inside `{}`.
-This is often the most readable option.
-
-```python
-name = "Alex"
-count = 3
-f"Hello {name}, you have {count} messages."
+len('hello')  # Returns 5
 ```

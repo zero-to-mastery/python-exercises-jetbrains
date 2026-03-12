@@ -11,4 +11,87 @@ environment: unittest
 content:
   - L01
   - L02
+additional_files:
+  - name: Notes from classes/1. Python Basics/Dictionaries.py
+    visible: true
+  - name: Notes from classes/1. Python Basics/Int&Float.py
+    visible: true
+  - name: Notes from classes/1. Python Basics/Lists.py
+    visible: true
+  - name: Notes from classes/1. Python Basics/Sets.py
+    visible: true
+  - name: Notes from classes/1. Python Basics/String.py
+    visible: true
+  - name: Notes from classes/1. Python Basics/Tuples.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/ArgsAndKwargs.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/BreakContinuePass.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/CleanCode.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/ConditionalLogic.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/Docstrings.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/Enumerate().py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/ForLoops.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/Functions.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/GlobalKeyword.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/IsVs==.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/Iterables.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/NonLocalKeyword.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/ParametersAndArguments.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/Range().py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/Return.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/ScopeRules.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/TernaryOperator.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/Walrus.py
+    visible: true
+  - name: Notes from classes/2. Python Basics II/WhileLoops.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/AttributesAndMethods.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/ClassmethodAndStaticmethod.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/CreatingOurOwnObjects.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/DunderMethods.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/Encapsulation.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/Generators.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/Inheritance.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/Init.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/MroMethodResolutionOrder.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/MultipleInheritance.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/ObjectIntrospection.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/OOP.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/Polymorphism.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/PrivateVsPublicVariables.py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/super().py
+    visible: true
+  - name: Notes from classes/3. Advanced Python/UndertheHoodGenerators.py
+    visible: true
 yaml_version: 5
