@@ -1,0 +1,13 @@
+type: edu
+custom_name: Generators
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 165
+        length: 119
+        placeholder_text: "pass #TODO: replace with the solution"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

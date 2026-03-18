@@ -1,0 +1,13 @@
+type: edu
+custom_name: For Loop Counter
+files:
+  - name: task.md
+    visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 229
+        length: 15
+        placeholder_text: "pass # TODO: add item to counter"
+  - name: tests/test_task.py
+    visible: false

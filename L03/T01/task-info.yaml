@@ -1,0 +1,19 @@
+type: edu
+custom_name: Logical Operators
+files:
+  - name: task.md
+    visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 194
+        length: 25
+        placeholder_text: "None #TODO: replace with the answer"
+      - offset: 402
+        length: 29
+        placeholder_text: "None #TODO: replace with the answer"
+      - offset: 552
+        length: 15
+        placeholder_text: "None #TODO: replace with the answer"
+  - name: tests/test_task.py
+    visible: false

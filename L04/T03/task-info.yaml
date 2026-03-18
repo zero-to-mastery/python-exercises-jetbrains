@@ -1,0 +1,19 @@
+type: edu
+custom_name: Extending Built-in Classes
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 375
+        length: 14
+        placeholder_text: "None # TODO: replace with the answer"
+      - offset: 445
+        length: 27
+        placeholder_text: "None # TODO: replace with the answer"
+      - offset: 525
+        length: 24
+        placeholder_text: "None # TODO: replace with the answer"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

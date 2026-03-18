@@ -1,0 +1,28 @@
+type: edu
+custom_name: Class Inheritance
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 692
+        length: 73
+        placeholder_text: "# TODO: replace with the answer"
+      - offset: 800
+        length: 17
+        placeholder_text: "None  # TODO: create a Simon instance"
+      - offset: 825
+        length: 17
+        placeholder_text: "None  # TODO: create a Sally instance"
+      - offset: 850
+        length: 19
+        placeholder_text: "None  # TODO: create a Chilli instance"
+      - offset: 936
+        length: 13
+        placeholder_text: "None  # TODO: create a Pets instance with my_cats"
+      - offset: 998
+        length: 14
+        placeholder_text: "None  # TODO: call walk() using my_pets"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

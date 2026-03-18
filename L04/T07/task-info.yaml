@@ -1,0 +1,13 @@
+type: edu
+custom_name: Decorators
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 296
+        length: 114
+        placeholder_text: "pass  # TODO: if the user is valid, run the function; otherwise print `invalid user`"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

@@ -11,6 +11,8 @@ environment: unittest
 content:
   - L01
   - L02
+  - L03
+  - L04
 additional_files:
   - name: Notes from classes/1. Python Basics/Dictionaries.py
     visible: true
@@ -94,4 +96,6 @@ additional_files:
     visible: true
   - name: Notes from classes/3. Advanced Python/UndertheHoodGenerators.py
     visible: true
+  - name: jetbrains-course-interactivity.md
+  - name: jetbrains-course-quality.md
 yaml_version: 5

@@ -1,0 +1,17 @@
+type: output
+custom_name: Nested Loops Picture
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 356
+        length: 127
+        placeholder_text: "pass # TODO: replace with the answer"
+  - name: task.md
+    visible: false
+  - name: tests/output.txt
+    visible: false
+    propagatable: false
+  - name: tests/input.txt
+    visible: false
+    propagatable: false
