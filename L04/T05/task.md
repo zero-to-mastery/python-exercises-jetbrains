@@ -1,5 +1,3 @@
-# Lambda Expressions
-
 A **lambda function** is a compact way to define a simple function without `def`. It consists of parameters and one expression whose value is returned automatically. Lambda functions are often used when the logic is short and needed only once.
 
 The **`map()`** function applies a function to each element of an iterable and returns an iterator. To get the final values in a regular list, the result is usually wrapped in `list()`. This is a common way to transform all elements of a collection in the same way.

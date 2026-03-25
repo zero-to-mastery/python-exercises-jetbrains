@@ -1,5 +1,3 @@
-# Classes and Instances
-
 A class is a way to describe a group of similar objects. It defines what data these objects should have when they are created. An object created from a class is called an **instance**. This means you can use one class to create many separate objects, and each of them can store its own values.
 
 ```python

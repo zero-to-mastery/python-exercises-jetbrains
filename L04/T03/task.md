@@ -1,5 +1,3 @@
-## Inheritance and Built-in Classes
-
 In Python, a class can inherit from another class. This means the new class keeps the behavior of the parent class, but can also add or change some parts of it. Python even allows you to inherit from built-in classes such as `list`, `str`, and `dict`, so you can create your own version of a familiar type.
 
 ```python

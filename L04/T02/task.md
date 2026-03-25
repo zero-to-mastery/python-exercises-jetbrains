@@ -1,5 +1,3 @@
-# Inheritance and Object Lists
-
 Inheritance lets one class use the behavior of another class. A new class can inherit attributes and methods from an existing class, and also add its own methods.
 
 ```python

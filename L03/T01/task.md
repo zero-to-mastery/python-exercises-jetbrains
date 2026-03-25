@@ -1,7 +1,3 @@
-# Logical Operators
-
-## What Are Logical Operators?
-
 Logical operators combine or modify boolean values (`True`/`False`). They're essential for making complex decisions in your code.
 
 ## The Three Logical Operators

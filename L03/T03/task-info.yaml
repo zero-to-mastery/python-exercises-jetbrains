@@ -4,8 +4,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 356
-        length: 127
+      - offset: 368
+        length: 141
         placeholder_text: "pass # TODO: replace with the answer"
   - name: task.md
     visible: false

@@ -1,7 +1,3 @@
-# Nested Loops
-
-## What Are Nested Loops?
-
 A nested loop is a loop inside another loop. The inner loop completes all its iterations for each iteration of the outer loop.
 
 ## How Nested Loops Work

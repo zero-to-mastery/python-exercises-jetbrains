@@ -1,7 +1,3 @@
-# Highest Even Number
-
-## Working with Filtering and Maximum Values
-
 When processing lists, you often need to filter elements based on conditions and then find specific values like the maximum or minimum.
 
 Python provides the `max()` function to find the largest value in a collection:

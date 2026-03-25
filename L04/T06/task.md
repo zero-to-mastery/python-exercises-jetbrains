@@ -1,5 +1,3 @@
-# List Comprehensions
-
 A list comprehension is a compact way to create a list. It consists of an expression followed by for and, optionally, if. It is useful when you want to build a new list from an existing iterable in a shorter and more readable way.
 
 A set stores only unique values. This makes it useful when you need to remove duplicates from a collection. Since sets are unordered, converting a list to a set and back to a list may change the order of elements.

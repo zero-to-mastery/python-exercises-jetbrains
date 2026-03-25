@@ -1,5 +1,3 @@
-# Functions and Parameters
-
 A function can accept information from outside. This information is passed into the function through **parameters**.
 
 A **parameter** is a variable written inside the parentheses in the function definition:

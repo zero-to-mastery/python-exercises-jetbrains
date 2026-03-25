@@ -1,7 +1,3 @@
-# Decorators
-
-## What Are Decorators?
-
 Decorators are functions that modify or enhance the behavior of other functions without changing their code. They "wrap" a function to add functionality before or after it runs.
 
 ## How Decorators Work

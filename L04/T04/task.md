@@ -1,5 +1,3 @@
-# Functional Programming
-
 Functional programming is a style of writing code where functions are used to transform data instead of changing it step by step. In Python, built-in tools such as `map()`, `filter()`, and `reduce()` help apply the same operation to many values, keep only matching values, or combine many values into one result.
 
 The `map()` function applies another function to every item in an iterable and returns the transformed values. This is useful when you want to change all items in the same way.

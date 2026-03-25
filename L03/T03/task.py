@@ -4,20 +4,20 @@
 # Print '|' at the beginning and end of each row to make the spaces visible.
 
 picture = [
-  [0,0,0,1,0,0,0],
-  [0,0,1,1,1,0,0],
-  [0,1,1,1,1,1,0],
-  [1,1,1,1,1,1,1],
-  [0,0,0,1,0,0,0],
-  [0,0,0,1,0,0,0]
+    [0,0,0,1,0,0,0],
+    [0,0,1,1,1,0,0],
+    [0,1,1,1,1,1,0],
+    [1,1,1,1,1,1,1],
+    [0,0,0,1,0,0,0],
+    [0,0,0,1,0,0,0]
 ]
 
 
 for image in picture:
-  print('|', end="")
-  for pixel in image:
-    if pixel:
-      print('*', end="")
-    else:
-      print(' ', end="")
-  print('|')
+    print('|', end="")
+    for pixel in image:
+      if pixel:
+        print('*', end="")
+      else:
+        print(' ', end="")
+    print('|')

@@ -1,7 +1,3 @@
-# Finding Duplicates in Lists
-
-## What Are Duplicates?
-
 Duplicates are items that appear more than once in a list. Finding duplicates is a common task in data processing.
 
 ## Checking for Duplicates

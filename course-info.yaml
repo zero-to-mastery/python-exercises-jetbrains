@@ -96,6 +96,4 @@ additional_files:
     visible: true
   - name: Notes from classes/3. Advanced Python/UndertheHoodGenerators.py
     visible: true
-  - name: jetbrains-course-interactivity.md
-  - name: jetbrains-course-quality.md
 yaml_version: 5

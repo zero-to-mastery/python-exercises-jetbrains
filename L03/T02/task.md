@@ -1,7 +1,3 @@
-# For Loop Counter
-
-## What Is a Counter Pattern?
-
 A counter (or accumulator) is a variable that collects values as you loop through data. It's one of the most common patterns in programming.
 
 ## The Pattern
