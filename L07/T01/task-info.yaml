@@ -1,0 +1,22 @@
+type: edu
+custom_name: Email Module
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 439
+        length: 62
+        placeholder_text: "# TODO"
+      - offset: 553
+        length: 45
+        placeholder_text: "# TODO"
+      - offset: 675
+        length: 11
+        placeholder_text: "# TODO"
+      - offset: 759
+        length: 15
+        placeholder_text: "# TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

@@ -15,6 +15,7 @@ content:
   - L04
   - L05
   - L06
+  - L07
 additional_files:
   - name: Notes from classes/1. Python Basics/Dictionaries.py
     visible: true
@@ -98,4 +99,5 @@ additional_files:
     visible: true
   - name: Notes from classes/3. Advanced Python/UndertheHoodGenerators.py
     visible: true
+  - name: requirements.txt
 yaml_version: 5

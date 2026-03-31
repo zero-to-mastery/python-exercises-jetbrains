@@ -1,0 +1,19 @@
+type: edu
+custom_name: Password Checker API
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 522
+        length: 17
+        placeholder_text: "None # TODO"
+      - offset: 941
+        length: 54
+        placeholder_text: "None # TODO"
+      - offset: 1318
+        length: 58
+        placeholder_text: "None # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
