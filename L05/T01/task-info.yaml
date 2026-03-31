@@ -14,3 +14,9 @@ files:
     visible: false
   - name: tests/test_task.py
     visible: false
+  - name: images/terminal.gif
+    visible: false
+    is_binary: true
+  - name: images/terminal_dark.gif
+    visible: true
+    is_binary: true

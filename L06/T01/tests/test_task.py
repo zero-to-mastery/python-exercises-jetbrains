@@ -22,7 +22,7 @@ class TestCase(unittest.TestCase):
         except ModuleNotFoundError:
             self.fail("All 4 tests in test.py must pass. Check that you have implemented do_stuff() function correctly.")
         except Exception as e:
-            self.fail("There was a problem while loading the solution  {0}. Check the solution for "
+            self.fail("There was a problem while loading the solution – {0}. Check the solution for "
                       "IDE-highlighted errors and warnings.".format(str(e)))
 
     def test_all_test_cases_pass(self):

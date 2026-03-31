@@ -4,7 +4,7 @@ In this task, you build a simple guessing game. The program gets a range from th
 
 #### `sys.argv`
 
-To read command-line arguments, use the `sys` module:
+Running this task may be a little less obvious than usual, because the program needs **command-line arguments**. To read command-line arguments, use the `sys` module:
 
 ```python
 import sys
@@ -16,13 +16,25 @@ import sys
 - `sys.argv[1]` is the first argument
 - `sys.argv[2]` is the second argument
 
-Example:
+For example, to run this task, open the Terminal in PyCharm using the button in the **bottom-left corner**, then run:
 
 ```bash
-python app.py 3 7
-```
+python L05/T01/task.py 3 7
+````
+<img src="images/terminal.gif" width="800">
 
-Then:
+What this command means:
+
+* `python` starts the Python interpreter
+* `L05/T01/task.py` is the path to the file you need to run
+* `3` is the first command-line argument
+* `7` is the second command-line argument
+
+Why is the path `L05/T01/task.py`?
+
+Because you run the command from the **course root folder**, and the file is inside **Lesson 05** (`L05`) and **Task 01** (`T01`). The file name is `task.py`.
+
+So this command runs `task.py` and passes `3` and `7` to the program as the range.
 
 ```python
 sys.argv[1]  # '3'

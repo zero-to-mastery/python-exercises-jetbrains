@@ -31,10 +31,10 @@ class TestCase(unittest.TestCase):
         from L06.T02.tests import test
 
         # Check at least 4 tests exist
-        test_methods = [method for method, value in test.TestGame.__dict__.items()
-                        if inspect.isfunction(value)]
+        test_methods = [method for method in dir(test.TestGame)
+                        if method.startswith('test_')]
         self.assertGreaterEqual(len(test_methods), 4,
-                               "test.py must contain at least 4 methods")
+                                "test.py must contain at least 4 test methods")
 
         # Check all tests pass
         suite = unittest.TestLoader().loadTestsFromModule(test)

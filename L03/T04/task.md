@@ -28,5 +28,6 @@ if item not in results:
 ```
 
 <div class="hint">
+
 Use the `.count()` method to check how many times a value appears in the list.
 </div>
