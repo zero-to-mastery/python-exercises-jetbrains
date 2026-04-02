@@ -18,5 +18,5 @@ files:
     visible: false
     is_binary: true
   - name: images/terminal_dark.gif
-    visible: true
+    visible: false
     is_binary: true
