@@ -21,5 +21,6 @@ count += 3   # count is now 8
 Other augmented operators: `-=`, `*=`, `/=`
 
 <div class="hint">
+
 Use the augmented assignment operator `+=` to add each item to the counter.
 </div>

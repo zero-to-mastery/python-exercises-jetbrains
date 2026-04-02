@@ -13,6 +13,8 @@ content:
   - L02
   - L03
   - L04
+  - L05
+  - L06
 additional_files:
   - name: Notes from classes/1. Python Basics/Dictionaries.py
     visible: true

@@ -1,0 +1,22 @@
+type: edu
+custom_name: Guessing Game I
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 159
+        length: 43
+        placeholder_text: "None # TODO"
+      - offset: 433
+        length: 47
+        placeholder_text: "None: # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+  - name: images/terminal.gif
+    visible: false
+    is_binary: true
+  - name: images/terminal_dark.gif
+    visible: false
+    is_binary: true

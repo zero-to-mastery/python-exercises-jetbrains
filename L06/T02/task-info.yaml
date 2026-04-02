@@ -1,0 +1,18 @@
+type: edu
+custom_name: Guessing Game II
+files:
+  - name: tests/test_task.py
+    visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 314
+        length: 325
+        placeholder_text: "# TODO: def run_guess(guess, answer):"
+      - offset: 690
+        length: 292
+        placeholder_text: "# TODO: if __name__ == '__main__':"
+  - name: initial_solution.py
+    visible: true
+  - name: tests/test.py
+    visible: true
