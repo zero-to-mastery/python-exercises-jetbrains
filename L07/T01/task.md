@@ -1,10 +1,6 @@
-# Email Module
+Python's [smtplib](https://docs.python.org/3/library/smtplib.html) and [email](https://docs.python.org/3/library/email.html) modules allow you to send emails programmatically. This is useful for automated notifications, reports, or communication systems.
 
-## What Is the Email Module?
-
-Python's `smtplib` and `email` modules allow you to send emails programmatically. This is useful for automated notifications, reports, or communication systems.
-
-## Creating an Email Message
+### Creating an Email Message
 
 The `EmailMessage` object stores the email headers and the email body in one place.
 Use `EmailMessage()` to create an email object and set headers:
@@ -30,10 +26,10 @@ For HTML content, pass `'html'` as the second argument:
 email.set_content('<h1>Hello</h1>', 'html')
 ```
 
-## HTML Templates with Dynamic Values
+### HTML Templates with Dynamic Values
 
 
-The `Template` class from the `string` module allows you to create templates with placeholders.
+The `Template` class from the `string` module allows you to create templates with placeholders. In this task, the HTML template is stored in `template.html` in the task folder.
 
 `Path('template.html').read_text()` reads the contents of the HTML file as a string, and `Template(...)` turns that string into a template object.
 
@@ -56,7 +52,7 @@ Then set it as the email content:
 email.set_content(content, 'html')
 ```
 
-## Connecting to an SMTP Server
+### Connecting to an SMTP Server
 
 To send an email, your script needs to connect to an SMTP server.
 
@@ -70,6 +66,8 @@ Common SMTP actions include:
 - logging in with your email credentials using `login()`
 - sending the prepared email message using `send_message()`
 
+For more complete examples of building and sending messages, see the [email examples documentation](https://docs.python.org/3/library/email.examples.html).
+
 For example, an SMTP connection is created by providing a server address and a port number:
 
 ```python
@@ -79,3 +77,15 @@ with smtplib.SMTP(host='smtp.example.com', port=587) as smtp:
     pass
 ```
 Here, `smtp` is the connection object. Its methods are used to interact with the mail server.
+
+### Running the script outside the tests
+
+If you run this script yourself, make sure you replace the placeholders in `smtp.login(...)` with real credentials:
+
+```python
+smtp.login('your_email@gmail.com', 'your_password')
+```
+
+If you leave the email address and password placeholders unchanged, the SMTP server will reject the login and raise `smtplib.SMTPAuthenticationError`.
+
+If you use Gmail, your regular password may not work for SMTP. In that case, you may need to [use an App Password](https://support.google.com/mail/answer/185833) instead.

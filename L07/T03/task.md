@@ -5,9 +5,17 @@ This exercise practices working with the `tweepy` module and the Twitter/X API.
 This exercise uses a Tweepy `API` style that is still supported and commonly used in learning materials. In [modern Tweepy documentation](https://docs.tweepy.org/), you will also see `Client` for Twitter API v2, but this task focuses on the `API` interface and OAuth 1.0a user authentication. 
 
 ### Authentication and API setup
-In the beginning, we need to authenticate to work with the Twitter/X API. Usually, this is done with user credentials such as a `consumer key`, `consumer secret`, `access token`, and `access token secret`. In this exercise, however, you do not need to enter real credentials because the tests will provide artificial values. 
+To work with the Twitter/X API, you first need to authenticate using credentials such as a `consumer key`, `consumer secret`, `access token`, and `access token secret`.
 
-Still, the file includes a `main` section that calls all functions, so if you want, you can enter your own credentials and try running the file yourself.
+In this exercise, you do not need to enter real credentials, because the tests will provide artificial values. However, the file still includes a `main` section, so you can enter your own credentials and try running it yourself.
+
+If you run the file without entering real API credentials, you will get an authentication error such as `tweepy.errors.BadRequest: 400 Bad Request` (`215 - Bad Authentication data`). This happens because the API rejects empty or invalid credentials.
+<div class="hint">
+
+If you want to try it with a real Twitter/X account, see the [Tweepy authentication guide](https://docs.tweepy.org/en/stable/authentication.html) and the [X Developer documentation](https://docs.x.com/fundamentals/authentication/oauth-1-0a/api-key-and-secret#api-key-and-secret) for setting up API access in the developer portal
+</div>
+
+### Authentication methods
 
 - `OAuth1UserHandler`
 Creates the authentication handler for OAuth 1.0a user context. It uses your consumer key, consumer secret, access token, and access token secret so Tweepy can make requests on behalf of the authenticated user. 

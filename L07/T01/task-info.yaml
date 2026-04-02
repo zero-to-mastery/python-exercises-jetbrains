@@ -4,19 +4,21 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 439
+      - offset: 478
         length: 62
         placeholder_text: "# TODO"
-      - offset: 553
+      - offset: 592
         length: 45
         placeholder_text: "# TODO"
-      - offset: 675
+      - offset: 714
         length: 11
         placeholder_text: "# TODO"
-      - offset: 759
+      - offset: 798
         length: 15
         placeholder_text: "# TODO"
   - name: task.md
     visible: false
   - name: tests/test_task.py
     visible: false
+  - name: template.html
+    visible: true

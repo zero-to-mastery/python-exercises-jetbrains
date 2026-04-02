@@ -1,5 +1,3 @@
-## Refactoring code for testing
-
 We already have a working version of the game in `initial_solution.py`, but it is written **inline**: the whole program starts running as soon as the file is executed or imported. This makes the code harder to test, because the game loop, input handling, random number generation, and guess-checking logic are all mixed together.
 
 Your task now is to **refactor** that solution into a more testable format so that it passes the tests in `test.py`.

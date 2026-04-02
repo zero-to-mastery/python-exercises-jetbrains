@@ -4,16 +4,22 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 522
+      - offset: 309
         length: 17
         placeholder_text: "None # TODO"
-      - offset: 941
+      - offset: 728
         length: 54
         placeholder_text: "None # TODO"
-      - offset: 1318
+      - offset: 1105
         length: 58
         placeholder_text: "None # TODO"
   - name: task.md
     visible: false
   - name: tests/test_task.py
     visible: false
+  - name: images/password.gif
+    visible: false
+    is_binary: true
+  - name: images/password_dark.gif
+    visible: false
+    is_binary: true
