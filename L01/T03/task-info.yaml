@@ -14,3 +14,6 @@ files:
   - name: images/hello_username.gif
     visible: false
     is_binary: true
+  - name: images/hello_username_dark.gif
+    visible: false
+    is_binary: true
