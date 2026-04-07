@@ -9,7 +9,7 @@ To work with the Twitter/X API, you first need to authenticate using credentials
 
 In this exercise, you do not need to enter real credentials, because the tests will provide artificial values. However, the file still includes a `main` section, so you can enter your own credentials and try running it yourself.
 
-If you run the file without entering real API credentials, you will get an authentication error such as `tweepy.errors.BadRequest: 400 Bad Request` (`215 - Bad Authentication data`). This happens because the API rejects empty or invalid credentials.
+If you run the file without entering real API credentials, you will get an authentication error such as `tweepy.BadRequest: 400 Bad Request` (`215 - Bad Authentication data`). This happens because the API rejects empty or invalid credentials.
 <div class="hint">
 
 If you want to try it with a real Twitter/X account, see the [Tweepy authentication guide](https://docs.tweepy.org/en/stable/authentication.html) and the [X Developer documentation](https://docs.x.com/fundamentals/authentication/oauth-1-0a/api-key-and-secret#api-key-and-secret) for setting up API access in the developer portal

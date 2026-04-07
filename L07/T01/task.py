@@ -23,6 +23,11 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
   # Start a secure connection by calling a method on the smtp object
   smtp.starttls()
 
-  smtp.login('<your email address>', '<your password>')
+  try:
+    smtp.login('<your email address>', '<your password>')
+  except smtplib.SMTPAuthenticationError:
+    print('Bad authentication data: your email or password is invalid or empty.')
+    exit(1)
+
   smtp.send_message(email)
   print('all good boss!')

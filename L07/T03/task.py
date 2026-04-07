@@ -73,4 +73,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except tweepy.BadRequest:
+        print('Bad authentication data: your credentials are invalid or empty.')
+        exit(1)
