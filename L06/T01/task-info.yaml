@@ -1,0 +1,27 @@
+type: edu
+custom_name: The Zero Bug
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 105
+        length: 19
+        placeholder_text: "if num: # TODO"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/test.py
+    visible: true
+    propagatable: false
+  - name: images/tests.gif
+    visible: false
+    is_binary: true
+  - name: images/tests_dark.gif
+    visible: false
+    is_binary: true
+  - name: images/run.svg
+    visible: false
+    is_binary: true
+  - name: images/run_dark.svg
+    visible: false
+    is_binary: true

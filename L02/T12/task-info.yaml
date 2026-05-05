@@ -1,0 +1,13 @@
+type: edu
+custom_name: Working With Sets
+files:
+  - name: task.md
+    visible: false
+  - name: Sets.py
+    visible: true
+    placeholders:
+      - offset: 244
+        length: 27
+        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

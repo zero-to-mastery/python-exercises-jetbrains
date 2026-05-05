@@ -1,0 +1,34 @@
+type: edu
+custom_name: Dictionary Methods
+files:
+  - name: task.md
+    visible: false
+  - name: Dictionaries.py
+    visible: true
+    placeholders:
+      - offset: 287
+        length: 25
+        placeholder_text: ???
+      - offset: 375
+        length: 9
+        placeholder_text: ???
+      - offset: 388
+        length: 8
+        placeholder_text: ???
+      - offset: 494
+        length: 28
+        placeholder_text: ???
+      - offset: 623
+        length: 11
+        placeholder_text: ???
+      - offset: 638
+        length: 4
+        placeholder_text: ???
+      - offset: 746
+        length: 19
+        placeholder_text: ???
+      - offset: 830
+        length: 40
+        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

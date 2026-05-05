@@ -1,0 +1,16 @@
+type: edu
+custom_name: Password Checker
+files:
+  - name: task.md
+    visible: false
+  - name: ExercisePasswordChecker.py
+    visible: true
+    placeholders:
+      - offset: 223
+        length: 1
+        placeholder_text: ???
+      - offset: 228
+        length: 13
+        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

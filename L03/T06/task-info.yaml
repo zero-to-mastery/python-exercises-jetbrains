@@ -1,0 +1,19 @@
+type: edu
+custom_name: Highest Even Number
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 171
+        length: 13
+        placeholder_text: "# TODO: check if the number is divisible by 2"
+      - offset: 198
+        length: 18
+        placeholder_text: "# TODO: add the number to the list"
+      - offset: 228
+        length: 10
+        placeholder_text: "# TODO: return the highest even number"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

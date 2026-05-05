@@ -1,0 +1,37 @@
+type: edu
+custom_name: String Indexes
+files:
+  - name: task.md
+    visible: false
+  - name: ExerciseStringIndexes.py
+    visible: true
+    placeholders:
+      - offset: 140
+        length: 5
+        placeholder_text: ???
+      - offset: 172
+        length: 12
+        placeholder_text: ???
+      - offset: 210
+        length: 13
+        placeholder_text: ???
+      - offset: 248
+        length: 12
+        placeholder_text: ???
+      - offset: 289
+        length: 3
+        placeholder_text: ???
+      - offset: 318
+        length: 3
+        placeholder_text: ???
+      - offset: 347
+        length: 10
+        placeholder_text: ???
+      - offset: 384
+        length: 5
+        placeholder_text: ???
+      - offset: 416
+        length: 13
+        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

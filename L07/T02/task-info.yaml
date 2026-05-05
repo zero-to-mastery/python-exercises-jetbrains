@@ -1,0 +1,25 @@
+type: edu
+custom_name: Password Checker API
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 309
+        length: 17
+        placeholder_text: "None # TODO"
+      - offset: 728
+        length: 54
+        placeholder_text: "None # TODO"
+      - offset: 1105
+        length: 58
+        placeholder_text: "None # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+  - name: images/password.gif
+    visible: false
+    is_binary: true
+  - name: images/password_dark.gif
+    visible: false
+    is_binary: true

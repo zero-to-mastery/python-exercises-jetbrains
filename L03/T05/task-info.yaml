@@ -1,0 +1,23 @@
+type: edu
+custom_name: Function Parameters
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 81
+        length: 5
+        placeholder_text: "# TODO: set the default value for age to 0"
+      - offset: 96
+        length: 13
+        placeholder_text: "# TODO: check if age is less than 18"
+      - offset: 194
+        length: 13
+        placeholder_text: "# TODO: check if age is greater than 18"
+      - offset: 264
+        length: 14
+        placeholder_text: "# TODO: check if age is equal to 18"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,22 @@
+type: edu
+custom_name: Formatted Strings
+files:
+  - name: task.md
+    visible: false
+  - name: ExerciseFormattedStrings.py
+    visible: true
+    placeholders:
+      - offset: 196
+        length: 34
+        placeholder_text: "# Write the resulting string here"
+      - offset: 311
+        length: 34
+        placeholder_text: "# Write the resulting string here"
+      - offset: 446
+        length: 34
+        placeholder_text: "# Write the resulting string here"
+      - offset: 635
+        length: 39
+        placeholder_text: ???
+  - name: tests/test_task.py
+    visible: false

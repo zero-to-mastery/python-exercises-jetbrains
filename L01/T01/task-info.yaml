@@ -1,0 +1,7 @@
+type: theory
+custom_name: About
+files:
+  - name: task.md
+    visible: false
+  - name: main.py
+    visible: true

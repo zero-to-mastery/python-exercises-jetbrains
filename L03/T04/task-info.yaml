@@ -1,0 +1,16 @@
+type: edu
+custom_name: Find Duplicates
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 181
+        length: 26
+        placeholder_text: "# TODO: check if value appears more than once"
+      - offset: 220
+        length: 23
+        placeholder_text: "# TODO: check if value is not already in duplicates"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

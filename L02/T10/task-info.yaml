@@ -1,0 +1,14 @@
+type: edu
+custom_name: Common List Patterns
+files:
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+  - name: ExerciseCommonListPatterns.py
+    visible: true
+    placeholders:
+      - offset: 187
+        length: 41
+        placeholder_text: "friends = friends.sort() + new_friend  # Wrong solution, try\
+      \ to fix it"

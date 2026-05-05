@@ -1,0 +1,16 @@
+type: edu
+custom_name: Lambda Expressions
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 103
+        length: 44
+        placeholder_text: "None # TODO: replace with the answer"
+      - offset: 262
+        length: 26
+        placeholder_text: "# TODO: a.sort(???)"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

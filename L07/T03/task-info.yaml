@@ -1,0 +1,22 @@
+type: edu
+custom_name: Twitter Bot
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 441
+        length: 24
+        placeholder_text: "None # TODO: Get information about the authenticated user"
+      - offset: 646
+        length: 18
+        placeholder_text: "break # TODO: Replace `break` with code that yields the next item from the cursor"
+      - offset: 1089
+        length: 54
+        placeholder_text: "None: # TODO"
+      - offset: 1696
+        length: 72
+        placeholder_text: "None: # TODO"
+  - name: task.md
+    visible: false
+  - name: tests/test_task.py
+    visible: false

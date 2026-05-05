@@ -1,0 +1,13 @@
+type: theory
+custom_name: Before You Continue
+files:
+  - name: task.md
+    visible: false
+  - name: main.py
+    visible: true
+  - name: images/placeholder.png
+    visible: false
+    is_binary: true
+  - name: images/placeholder_dark.png
+    visible: false
+    is_binary: true
